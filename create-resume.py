@@ -262,6 +262,9 @@ def sidebar_content(cell):
         doc, "Configured and managed server environments for optimal performance"
     )
     add_bullet_point(doc, "Ensured secure and scalable deployment processes")
+    add_bullet_point(doc, "Automated backup of databases deployed within VPS")
+    add_bullet_point(doc, "Uploaded backups to cloud storage like S3 bucket daily")
+    add_bullet_point(doc, "Used Document DBs like MongoDB and SQL databases like MySQL and PostgreSQL")
 
 
 if __name__ == "__main__":
